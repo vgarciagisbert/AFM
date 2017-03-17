@@ -1,3 +1,10 @@
+#get all the pictures inside the folder you drop the Pictures_to_pdf.py file and create a pdf with all of them
+#You must have latex installed in order to work
+
+#Python 3.7
+#Latex required
+#Windows version
+
 import glob, os
 
 for filename in os.listdir("."):
